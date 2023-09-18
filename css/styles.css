@@ -58,13 +58,7 @@
  *      ## animate intro content
  * # resume 
  *      ## resume block
- * # portfolio
- *      ## portfolio list
- *      ## modal popup
  * # CTA
- * # testimonials
- *      ## swiper style overrides
- *      ## testimonial slider 
  * # contact
  *      ## contact block
  * # footer
@@ -2448,66 +2442,7 @@ input[type="button"].btn--primary:focus {
 }
 
 /** 
- * Pull Quotes
- * -----------
- * markup:
- *
- * <figure class="pull-quote">
- *		<blockquote>
- *			<p></p>
- *		</blockquote>
- * </figure>
- *
- * --------------------------------------------------------------------- */
-.pull-quote {
-    position: relative;
-    padding: 0;
-    margin-top: 0;
-    text-align: center;
-    background-color: var(--color-gray-1);
-}
-
-.pull-quote blockquote {
-    border: none;
-    margin: 0 auto;
-    max-width: 62rem;
-    padding-top: var(--vspace-4);
-    padding-bottom: var(--vspace-2);
-    position: relative;
-}
-
-.pull-quote blockquote p {
-    font-weight: 400;
-    color: var(--color-text-dark);
-}
-
-.pull-quote blockquote:before {
-    content: "";
-    display: block;
-    height: var(--vspace-1_25);
-    width: var(--vspace-1_25);
-    background-repeat: no-repeat;
-    background: center center;
-    background-size: contain;
-    background-image: url(../images/icons/icon-quote.svg);
-    -webkit-transform: translate3d(-50%, 0, 0);
-    transform: translate3d(-50%, 0, 0);
-    position: absolute;
-    top: var(--vspace-1_5);
-    left: 50%;
-}
-
-/** 
  * Stats Tab
- * ---------
- * markup:
- *
- * <ul class="stats-tabs">
- *		<li><a href="#">[value]<em>[name]</em></a></li>
- *	</ul>
- *
- * Extend this object into your markup.
- *
  * --------------------------------------------------------------------- */
 .stats-tabs {
     padding: 0;
@@ -3447,7 +3382,7 @@ input[type="button"].btn--primary:focus {
     bottom: 0;
     width: 100%;
     height: 100%;
-    background-image: url(../images/possiblewebsitebanners/DSC04139.JPG);
+    background-image: url(../images/possiblewebsitebanners/DSC04188.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -3788,9 +3723,9 @@ input[type="button"].btn--primary:focus {
 }
 
 .s-about__pic {
-    width: var(--vspace-5);
-    height: var(--vspace-5);
-    border: 1.6rem solid rgba(255, 255, 255, 0.02);
+    width: var(--vspace-6);
+    height: var(--vspace-6);
+    border: 1rem solid rgba(255, 255, 255, 0.02);
     border-radius: 50%;
 }
 
@@ -4087,11 +4022,7 @@ input[type="button"].btn--primary:focus {
 }
 
 .s-footer a {
-    color: white;
-}
-
-.s-footer a:hover, .s-footer a:focus {
-    color: var(--color-2);
+    color:rgba(255, 255, 255, 0.2);
 }
 
 /* ------------------------------------------------------------------- 
