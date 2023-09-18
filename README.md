@@ -1,4 +1,5 @@
 # glwhitaker.github.io
 Grayson Whitaker personal website source
 
-- not complete
+- StyleShout
+- Edited by Grayson Whitaker
